@@ -19,6 +19,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.LEATHER_SHIELD.get());
+                        pOutput.accept(ModItems.GOLD_SHIELD.get());
+                        pOutput.accept(ModItems.DIAMOND_SHIELD.get());
+                        pOutput.accept(ModItems.NETHERITE_SHIELD.get());
 
                     })
                     .build());
